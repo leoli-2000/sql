@@ -57,6 +57,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 ```
 Your answer...
+I choose Type 1: retain changes. When making changes on the data, there will be chances of human error or other general system issue need to retrive historic data. If overwrite the data without history log, roll back to previous version would be impossible. However, extra data storage would be expensive if there are large amount of customer. As a result, I suggest that old data or archived data from many versions ago should be deleted periodically.
 ```
 
 ***
